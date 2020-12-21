@@ -8,7 +8,7 @@ YSTC 是一个自由的寻求编程爱好者和 DD 交集的组织。我们希�
 
 ## 如何参加活动
 
-本次活动将通过 GitHub 平台来举办。你需要将你最终的代码提交到指定的 GitHub repo（https://github.com/projectyanbao/1stTeamBuilding.git） 中。因此，为了参加本次活动你至少需要一个 GitHub 账号。并了解 GitHub 的 pr 机制。
+本次活动将通过 GitHub 平台来举办。你需要将你最终的代码提交到指定的 GitHub repo（https://github.com/projectyanbao/1stTeamBuilding.git ） 中。因此，为了参加本次活动你至少需要一个 GitHub 账号。并了解 GitHub 的 pr 机制。
 
 ## 活动内容
 

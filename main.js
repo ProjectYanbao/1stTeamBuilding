@@ -1,15 +1,17 @@
-var code = {}
+if (typeof code === 'undefined') {
+  var code = {}
 
-code.red = function (x, y) {
+  code.red = function (x, y) {
+    return 0;
+  }
 
-}
+  code.blue = function (x, y) {
+    return 0;
+  }
 
-code.blue = function (x, y) {
-
-}
-
-code.green = function (x, y) {
-
+  code.green = function (x, y) {
+    return 0;
+  }
 }
 
 let canvas = document.getElementById('canvas')

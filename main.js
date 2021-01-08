@@ -25,7 +25,7 @@ code.red = function (x, y) {
   if (l < 0.3) {
     return (0.2 * background + 0.8 * sun) * 255
   } else {
-    return (tbm === 1 ? tbm : background) * 255
+    return (tbm === 1 ? 1 - background : background) * 255
   }
 }
 
@@ -38,7 +38,7 @@ code.blue = function (x, y) {
   if (l < 0.3) {
     return (0.2 * background + 0.8 * sun) * 255
   } else {
-    return (tbm === 1 ? tbm : background) * 255
+    return (tbm === 1 ? 1 - background : background) * 255
   }
 }
 
@@ -46,7 +46,7 @@ code.green = function (x, y) {
   const [dx, dy] = [2 * x / 1024 - 1, 2 * y / 1024 - 1]
   const background = Math.cos(dx + 1 - dy)
   const tbm = tsubame(x, y)
-  return (tbm === 1 ? tbm : background) * 255
+  return (tbm === 1 ? 1 - background : background) * 255
 }
 
 let canvas = document.getElementById('canvas')
